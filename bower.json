@@ -1,0 +1,49 @@
+{
+  "name": "js-gheditor",
+  "version": "0.1.2",
+  "title": "GHEditor",
+  "description": "Editor of markdown, with preview window. Taken from ghost.",
+  "keywords": [
+    "ghost",
+    "previw",
+    "widget",
+    "markdown"
+  ],
+  "homepage": "https://github.com/vencax/js-gheditor",
+  "author": { "name": "Vaclav Klecanda" },
+  "maintainers": [
+    { "name": "Vaclav Klecanda" }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vencax/js-gheditor.git"
+  },
+  "bugs": "https://github.com/vencax/js-gheditor/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "dependencies": {
+    "codemirror": "*",
+    "showdown": "*",
+    "underscore": "*",
+    "blueimp-file-upload": "*"
+  },
+  "main": [
+    "css/gheditor.css",
+    "lib/editor.js",
+    "lib/ghostdown.js",
+    "lib/jquery-utils.js",
+    "lib/markdown-actions.js",
+    "lib/marker-manager.js",
+    "lib/shortcuts.js",
+    "lib/upload-manager.js",
+    "lib/uploader.js"
+  ],
+  "ignore": [
+    "/*.*",
+    "example.html"
+  ]
+}
