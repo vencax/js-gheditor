@@ -29,6 +29,7 @@
     "codemirror": "*",
     "showdown": "*",
     "underscore": "*",
+    "jquery-ui": "*",
     "blueimp-file-upload": "*"
   },
   "main": [
