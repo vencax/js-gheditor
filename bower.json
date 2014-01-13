@@ -28,20 +28,16 @@
   "dependencies": {
     "codemirror": "*",
     "showdown": "*",
-    "underscore": "*",
-    "jquery-ui": "*",
-    "blueimp-file-upload": "*"
+    "underscore": "*"
   },
   "main": [
     "css/gheditor.css",
     "lib/editor.js",
     "lib/ghostdown.js",
-    "lib/jquery-utils.js",
     "lib/markdown-actions.js",
     "lib/marker-manager.js",
     "lib/shortcuts.js",
     "lib/upload-manager.js",
-    "lib/uploader.js"
   ],
   "ignore": [
     "/*.*",
