@@ -14,11 +14,6 @@
     <link rel="stylesheet" href="css/gheditor.css">
 
     <script src='bower_components/jquery/jquery.js'></script>
-    <script src='bower_components/jquery-ui/ui/jquery.ui.widget.js'></script>
-
-    <script src='bower_components/blueimp-file-upload/js/jquery.fileupload.js'></script>
-    <script src='bower_components/blueimp-file-upload/js/jquery.fileupload-ui.js'></script>
-    <script src='bower_components/blueimp-file-upload/js/jquery.iframe-transport.js'></script>
 
     <script src='bower_components/underscore/underscore.js'></script>
     <script src='bower_components/showdown/src/showdown.js'></script>
@@ -31,7 +26,6 @@
     <script src='lib/shortcuts.js'></script>
 
     <script src='lib/ghostdown.js'></script>
-    <script src='lib/uploader.js'></script>
 
     <script src='lib/marker-manager.js'></script>
     <script src='lib/upload-manager.js'></script>
@@ -43,9 +37,16 @@
     <section id="ghedit"></section>
 
     <script>
-        GhostEditor.initialize('ghedit', function() {
-            return '## test h2eader\nhello world!\n\n---'
+
+        function ghostdownOnImage(match, key, alt, src) {
+            return '<img class="js-upload-target" src="' + src + '" alt="' + alt +'"/>';
+        }
+
+        var ge = new SimpleGhostEditor();
+        ge.init('ghedit', function() {
+            return '## test h2eader\nhello world!\n\n---';
         }, '400');
+        
     </script>
   </body>
 
