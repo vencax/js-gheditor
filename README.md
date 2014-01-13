@@ -1,7 +1,6 @@
 # js-gheditor
 
-Editor of markdown (
-[GFM](https://help.github.com/articles/github-flavored-markdown)included),
+Editor of markdown ([GFM](https://help.github.com/articles/github-flavored-markdown) included),
 __with preview window__. Taken from [ghost](https://ghost.org/).
 
 Ghost provide interesting editor for blog entries editing.
