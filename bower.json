@@ -1,6 +1,6 @@
 {
   "name": "js-gheditor",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "title": "GHEditor",
   "description": "Editor of markdown, with preview window. Taken from ghost.",
   "keywords": [
@@ -33,7 +33,6 @@
   "main": [
     "css/gheditor.css",
     "lib/editor.js",
-    "lib/ghostdown.js",
     "lib/markdown-actions.js",
     "lib/marker-manager.js",
     "lib/shortcuts.js",
