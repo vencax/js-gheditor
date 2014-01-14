@@ -4,10 +4,11 @@
   "title": "GHEditor",
   "description": "Editor of markdown, with preview window. Taken from ghost.",
   "keywords": [
+    "markdown",
+    "editor",
     "ghost",
-    "previw",
-    "widget",
-    "markdown"
+    "preview",
+    "widget"
   ],
   "homepage": "https://github.com/vencax/js-gheditor",
   "author": { "name": "Vaclav Klecanda" },
