@@ -29,14 +29,14 @@
   "dependencies": {
     "codemirror": "*",
     "showdown": "*",
-    "underscore": "*"
+    "underscore": "*",
+    "moment": "*"
   },
   "main": [
     "css/gheditor.css",
     "lib/editor.js",
     "lib/markdown-actions.js",
     "lib/marker-manager.js",
-    "lib/shortcuts.js",
     "lib/upload-manager.js"
   ],
   "ignore": [
