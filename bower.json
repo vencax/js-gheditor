@@ -35,9 +35,7 @@
   "main": [
     "css/gheditor.css",
     "lib/editor.js",
-    "lib/markdown-actions.js",
-    "lib/marker-manager.js",
-    "lib/upload-manager.js"
+    "lib/markdown-actions.js"
   ],
   "ignore": [
     "/*.*",
